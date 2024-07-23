@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="he">touch me</p>
+</body>
+</html>
+<script>
+    let p = document.getElementById("he")
+    p.addEventListener('click',function(){
+        console.log("you touched me")
+    })
+    document.addEventListener('keydown',function(e){
+    console.log("you pressed something")
+    if(e.key == "w"){
+        console.log("up")
+    }else if(e.key == "s"){
+        console.log("down")
+    }else if(e.key == "a"){
+        console.log("left")
+    }else if(e.key == "d"){
+        console.log("right")
+    }
+})
+</script>

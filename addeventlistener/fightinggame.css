@@ -1,0 +1,52 @@
+html,body{
+    font-family: monospace;
+}
+.playernames{
+    font-weight: bolder;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.playersimg,.controls,.health{
+    display: flex;
+    justify-content: space-around;
+}
+.health{
+    font-size: 40px;
+}
+.indiImg{
+    width: 200px;
+    height: 230px;
+}
+.controls{
+    display: flex;
+    justify-content: space-around;
+}
+.conindi{
+    font-size: 20px;
+}
+.but{
+    position: absolute;
+    left: 45%;
+    display: flex;
+    flex-direction: column;
+}
+.indibut{
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 30px;
+    border-style: solid ;
+    border-color: aliceblue;
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    height: 40px;
+    transition: all ease 0.4s;
+}
+.indibut:hover{
+    background-color: aliceblue;
+    color: black;
+    border-color: black;
+    font-size: 17px;
+}

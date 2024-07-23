@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIPME</title>
+    <link rel="stylesheet" href="tipProject.css">
+</head>
+<body>
+    <div class="mainbox">
+        <p class="text">Enter Your Bill</p>
+        <input type="text" placeholder="Enter Bill" id="bill">
+        <p class="text">Enter Your Tip</p>
+        <input type="text" placeholder="Enter Tip" id="tip">
+        <p class="text">Enter People</p>
+        <p id="people">0</p>
+        <button class="inc" onclick=increment()>
+            +
+        </button>
+        <button class="dec" onclick=decrement()>
+            -
+        </button>
+        <div class="total">
+            Total cost: <span id="cost"></span>
+        </div>
+    </div>
+</body>
+</html>
+<script src="tipProject.js"></script>
